@@ -1,0 +1,38 @@
+name:
+  value: John Doe
+  first: John
+  last: Doe
+
+# Each of these items will create a button in the contacts row.
+# The icon names come from material design icons (https://materialdesignicons.com/). If
+# no icon name is provided, the item name is assumed to be a valid MDI icon.
+# You may also provide short and long descriptions for each item, which are used in
+# responsive page designs.
+info:
+  - name: email
+    icon: email-outline
+    value: john.doe@example.com
+    link: mailto:john.doe@example.com
+
+  - name: telno
+    icon: phone
+    long: "+447123 456 789"
+    value: "+447123456789"
+    link: tel:+447123456789
+
+  - name: github
+    value: jdoe
+    short: jdoe
+    link: "https://github.com/jdoe"
+
+  - name: facebook
+    value: jdoe
+
+  - name: twitter
+    value: "@jdoe"
+
+  - name: address
+    icon: map-marker
+    value: Buckingham Palace, Westminster, London, SW1A 1AA
+    long: Buckingham Palace, SW1A 1AA
+    short: Buck House

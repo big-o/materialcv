@@ -1,0 +1,34 @@
+---
+layout: cv
+---
+{% include header.html %}
+
+{% for section in page.sections %}
+<div class="row cv-section">
+  <div class="col s12">
+    <div class="card horizontal cv-section-{{ section.name | downcase | replace: ' ',
+      '-' | replace: '_', '-' }}">
+      <div class="card-content cv-section-label {{ page.theme.color }}
+                  lighten-5 waves-effect waves-light waves-ripple">
+        <ul class="cv-section">
+          <li class="mdi mdi-{{ section.icon }}">
+            {% if section.title %}
+              {{ section.title | capitalize }}
+            {% else %}
+              {{ section.name | capitalize }}
+            {% endif %}
+          </li>
+        </ul>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content cv-section-body cv-section-{{ section.name | downcase | replace: ' ', '-' | replace: '_', '-' }}">
+          {% capture mdcontent %}
+            {% include_relative content/{{ section.name | downcase | replace: " ", "_" }}.md %}
+          {% endcapture %}
+          {{ mdcontent | strip | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endfor %}

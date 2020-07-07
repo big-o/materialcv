@@ -1,0 +1,20 @@
+<div class="row cv-section">
+  <div class="col s12">
+    <div class="card horizontal">
+      <div class="card-content cv-section-label {{ page.theme.color }}
+                  lighten-5 waves-effect waves-light waves-ripple">
+        <ul class="cv-section">
+          <li class="mdi mdi-{{ include.icon }}">{{ include.name | capitalize }}</li>
+        </ul>
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          {% capture mdcontent %}
+            {% include_relative content/{{ include.name | downcase | replace: " ", "_" }}.md %}
+          {% endcapture %}
+          {{ mdcontent | strip | markdownify }}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

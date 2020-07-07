@@ -1,0 +1,30 @@
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      # Configure the appearance of the document here.
+      theme:
+        color: indigo
+
+      # Reorder and rename sections here. If you create a new section, be sure to make
+      # a .md file with the correct name in the ./content directory. The title of each
+      # section will be derived from the section name, unless you override it with the
+      # 'title' property.
+      sections:
+        - name: skills
+          icon: wrench
+
+        - name: summary
+          icon: star
+
+        - name: projects
+          title: Interests
+          icon: space-invaders
+
+        - name: history
+          title: Experience
+          icon: history
+
+        - name: education
+          icon: school

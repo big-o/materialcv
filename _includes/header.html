@@ -1,0 +1,42 @@
+<div id="page" class="container">
+  <div class="row cv-header">
+    <div class="col s12">
+      <div class="card {{ page.theme.color }} lighten-5 cv-executive">
+
+        <div class="card-content waves-effect waves-light">
+          <span class="card-title xl emphasise">{{ site.data.about.name.value }}</span>
+          {% capture mdheader %}{% include_relative content/header.md %}{% endcapture %}
+          {{ mdheader | markdownify }}
+        </div>
+
+        <div class="card-action cv-contacts {{ page.theme.color }} darken-1 waves-effect waves-light">
+          <div class="cv-contacts-container">
+            {% for item in site.data.about.info %}
+              <a class="waves-effect {{ page.theme.color }} darken-1 waves-light
+                 white-text btn tooltipped btn-flat btn-lower contact-btn m"
+                 data-position="bottom"
+                 data-tooltip="{{ item.value }}"
+                 href="{% if item.link %} {{ item.link }} {% else %} # {% endif %}">
+                <div class="icon">
+                  {% if item.icon %}
+                    <span class="mdi mdi-{{ item.icon }}" />
+                  {% else %}
+                    <span class="mdi mdi-{{ item.name }}" />
+                  {% endif %}
+                </div>
+                <div class="contact-detail">{{ item.value }}</div>
+                {% if item.long %}
+                  <div class="contact-detail-lg">{{ item.long }}</div>
+                {% else %}
+                  <div class="contact-detail-lg">{{ item.value }}</div>
+                {% endif %}
+                {% if item.short %}
+                  <div class="contact-detail-sm">{{ item.short }}</div>
+                {% endif %}
+              </a>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
