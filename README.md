@@ -36,8 +36,8 @@ headers etc. can easily be changed in `_config.yml`:
 
 <img src="./img/web.png" alt="web" height="300px" />
 
-On small/mobile devices, the cards take on a more vertical format to better utilise
-space:
+On smaller devices such as mobile, the cards take on a more vertical format to better
+utilise space:
 
 <img src="./img/mobile.png" alt="mobile" height="300px" />
 
