@@ -22,6 +22,10 @@ Simply fork the project, and then add your personal information:
 Optionally, you can also configure the section order/names/icons and the colour scheme
 in `_config.yml`.
 
+View your CV locally by running `bundle exec jekyll serve` and browse to
+http://localhost:4000. Alternatively, push your content to GitHub and view your page
+online at https://<username>.github.io/<fork>.
+
 ## Demo
 
 See a live demo [here](https://big-o.github.io/materialcv).
