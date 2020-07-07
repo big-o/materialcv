@@ -14,4 +14,4 @@ print.
 
 ## Demo
 
-https://github.io/big-o/materialcv
+https://big-o.github.io/materialcv
