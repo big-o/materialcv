@@ -24,7 +24,8 @@ in `_config.yml`.
 
 View your CV locally by running `bundle exec jekyll serve` and browse to
 `http://localhost:4000`. Alternatively, push your content to GitHub and view your page
-online at `https://<username>.github.io/<fork>`.
+online at `https://<username>.github.io/<fork>` (make sure you enable github pages on
+your fork first).
 
 ## Demo
 
