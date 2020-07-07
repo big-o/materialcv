@@ -8,7 +8,7 @@ print.
 * Customisable theme.
 * Easily maintain your CV content with markdown files, without needing to worry about
   the layout.
-* Responsive layout suitable for large desktops/small desktops/mobile.
+* Responsive layout suitable for desktops/tablets/phones.
 * Print preview will re-render the document in a format suitable for printing or saving
   to PDF.
 
