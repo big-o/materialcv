@@ -14,4 +14,20 @@ print.
 
 ## Demo
 
-https://big-o.github.io/materialcv
+See a live demo [here](https://big-o.github.io/materialcv).
+
+The layout follows a simple card-based format on most desktops. The colour can easily be
+changed by editing the theme properties in `_config.yml`:
+
+![web](./img/web.png)
+
+On small/mobile devices, the cards take on a more vertical format to better utilise
+space:
+
+![mobile](./img/mobile.png)
+
+The print format is also optimised for PDF/paper. As well as having a more
+paper-friendly layout, you can also ensure that URLs are displayed alongside any anchor
+labels, so no information is lost:
+
+![print](./img/pring.png)
