@@ -31,8 +31,8 @@ your fork first).
 
 See a live demo [here](https://big-o.github.io/materialcv).
 
-The layout follows a simple card-based format on most desktops. The colour can easily be
-changed by editing the theme properties in `_config.yml`:
+The layout follows a simple card-based format on most desktops. The colour, section
+headers etc. can easily be changed in `_config.yml`:
 
 <img src="./img/web.png" alt="web" height="300px" />
 
