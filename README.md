@@ -23,8 +23,8 @@ Optionally, you can also configure the section order/names/icons and the colour 
 in `_config.yml`.
 
 View your CV locally by running `bundle exec jekyll serve` and browse to
-http://localhost:4000. Alternatively, push your content to GitHub and view your page
-online at https://<username>.github.io/<fork>.
+`http://localhost:4000`. Alternatively, push your content to GitHub and view your page
+online at `https://<username>.github.io/<fork>`.
 
 ## Demo
 
