@@ -12,6 +12,16 @@ print.
 * Print preview will re-render the document in a format suitable for printing or saving
   to PDF.
 
+## Getting started
+
+Simply fork the project, and then add your personal information:
+
+* Put your name and contact details in `_data/about.yml`.
+* Write the contents of your CV in the `.md` files in `contents/`.
+
+Optionally, you can also configure the section order/names/icons and the colour scheme
+in `_config.yml`.
+
 ## Demo
 
 See a live demo [here](https://big-o.github.io/materialcv).
