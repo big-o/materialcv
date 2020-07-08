@@ -6,7 +6,7 @@
         <div class="cv-executive-banner">
           {% if site.data.about.image %}
             <img
-              src="{{ site.data.about.image }}"
+              src="{{ site.data.about.image | relative_url }}"
               title="{{ site.data.about.name }}"
               class="circle cv-profile-pic" />
           {% endif %}
