@@ -284,6 +284,10 @@ ul.cv-section li.mdi.mdi-wrench:before { content: "\F05B7"; }
     display: none;
   }
 
+  .cv-contacts-container {
+    width: 100%;
+    display: inline-block;
+  }
   .cv-contacts a.btn div.icon {
     font-size: 2rem !important;
   }
