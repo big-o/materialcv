@@ -2,7 +2,7 @@ name: John Doe
 
 # Uncomment this line to add an image to the document (image is never included in the
 # print version).
-image: '/assets/images/profile.jpg'
+image: 'assets/images/profile.jpg'
 
 # Each of these items will create a button in the contacts row. Add as many or as few as
 # you like. Each item must have at least a 'name', 'value' and 'icon'. Everything else
