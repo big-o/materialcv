@@ -20,7 +20,7 @@ defaults:
 
         - name: projects
           title: Interests
-          icon: space-invaders
+          icon: flask-outline
 
         - name: history
           title: Experience
@@ -28,3 +28,6 @@ defaults:
 
         - name: education
           icon: school
+
+plugins:
+  - jemoji

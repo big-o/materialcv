@@ -14,18 +14,34 @@ print.
 
 ## Getting started
 
-Simply fork the project, and then add your personal information:
+Simply add your details as follows:
 
 * Put your name and contact details in `_data/about.yml`.
 * Write the contents of your CV in the `.md` files in `contents/`.
+* (Optional) save a profile picture to `assets/images` to include in the document
+  header.
+
+> :warning: If you fork this project, then your fork will be **public** meaning anyone
+> can see any personal details you commit to github. If you have personal details that
+> you don't want to publish, then you should create a private copy of the repo instead.
+> See [this page](https://gist.github.com/0xjac/85097472043b697ab57ba1b1c7530274) for
+> guidance on how to do that.
 
 Optionally, you can also configure the section order/names/icons and the colour scheme
-in `_config.yml`.
+in `_config.yml`. You can also add in an optional profile picture here (web layout
+only).
 
-View your CV locally by running `bundle exec jekyll serve` and browse to
-`http://localhost:4000`. Alternatively, push your content to GitHub and view your page
-online at `https://<username>.github.io/<fork>` (make sure you enable github pages on
-your fork first).
+View your CV locally by running the following commands in the project directory:
+
+```
+sudo gem install jekyll bundler
+bundle update
+bundle exec jekyll serve`
+```
+
+Then browse to `http://localhost:4000` to view your CV. Alternatively, push your content
+to GitHub and view your page online at `https://<username>.github.io/<fork>` (make sure
+you enable github pages on your fork first).
 
 ## Demo
 

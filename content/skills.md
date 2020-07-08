@@ -1,5 +1,5 @@
 * # Software
-  Excel; Word; SQL.
+  Add a list of keywords for any skills you have here, *e.g.*: Excel; Word; SQL.
 
 * # Other
-  PRINCE2.
+  Break down your skills into categories by using different headings if it helps.

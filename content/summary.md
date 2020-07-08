@@ -1,5 +1,5 @@
-Project manager with extensive experience of large **public sector** procurement
-processes. I specialise in **logistics** and **cost reduction**. My greatest
-strength is business awareness, which enables me to identify and address chokepoints
-in processes. I am looking to move into a role that allows me to work on large projects
-with opportuniries for customer interaction.
+A short summary (one or two paragraphs) of your career for those who don't want to read
+through your entire work history.
+
+You could also add a paragraph at the end describing what you are looking for in a future
+position.

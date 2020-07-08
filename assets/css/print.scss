@@ -1,3 +1,147 @@
 ---
 ---
-@import "print";
+@import "components/color";
+
+@media print {
+  @page {
+    size: 'A4'; /* DIN A4 standard, Europe */
+    margin: 10mm 5mm 10mm 5mm;
+  }
+  html, body {
+    width: 100%;
+    font-size: 9pt;
+    background: #FFF;
+    overflow:visible;
+    line-height: 1.2;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+  }
+
+  .xl,
+  .contact-btn {
+    font-size: 10pt;
+  }
+
+  img.emoji {
+    height: 9pt;
+    width: 9pt;
+    filter: grayscale(75%);
+  }
+
+  img.emoji.xl,
+  .xl img.emoji {
+    height: 10pt;
+    width: 10pt;
+  }
+
+  .cv-executive .cv-profile-pic {
+    display: none;
+  }
+
+  div.card-content.cv-section-label {
+    width: 30mm;
+  }
+
+  div.card.cv-executive .card-content {
+    padding-bottom: 0;
+  }
+
+  div.card-action.cv-contacts {
+    border: none;
+    margin: 0 0 2mm 0;
+  }
+
+  div.cv-contacts-container {
+    margin: initial;
+  }
+
+  div.cv-contacts-container>a.btn:first-child {
+    padding-left: 0;
+  }
+
+  div.card-action.cv-contacts,
+  div.card-action.cv-contacts * {
+    background-color: transparent !important;
+    color: black !important;
+  }
+
+  .cv-contacts a.btn {
+    padding: 0 2mm;
+    height: 8mm;
+    font-size: 8pt;
+  }
+
+  .card-content,
+  .card-action {
+    padding: 6mm;
+  }
+
+  .cv-header,
+  .cv-section {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 5mm;
+    padding-right: 3mm;
+  }
+
+  .cv-keypoints {
+    margin-bottom: 0;
+  }
+
+  .cv-header div.card-content,
+  .cv-section div.card-content {
+    padding: 0 0 4mm 0;
+  }
+
+  .cv-header div.card,
+  .cv-section div.card {
+    box-shadow: none;
+    border-bottom: 1mm double;
+    border-radius: initial;
+  }
+
+  .cv-section:last-of-type div.card {
+    border-bottom: none;
+  }
+
+  .cv-header .card-action {
+    padding: 0;
+    margin: 3mm 0 3mm 0;
+  }
+
+  #page.container {
+    width: 100%;
+    margin: 0;
+  }
+
+  p {
+    text-align: justify;
+  }
+
+  a.cv-url {
+    color: initial;
+    font-weight: bold;
+  }
+
+  a.cv-url::after{
+    font-size: small;
+    color: #039be5;
+    font-weight: initial;
+    font-family: monospace;
+    content: "(" attr(href) ")";
+  }
+
+  .cv-header div.card,
+  .cv-section div.card {
+    border-bottom-color: color("{{ page.theme.color }}", "lighten-3");
+  }
+
+  .cv-header .card,
+  .cv-executive .card,
+  .card div.card-content.cv-section-label {
+    background-color: transparent !important;
+  }
+}

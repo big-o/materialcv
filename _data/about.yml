@@ -1,9 +1,12 @@
-name:
-  value: John Doe
-  first: John
-  last: Doe
+name: John Doe
 
-# Each of these items will create a button in the contacts row.
+# Uncomment this line to add an image to the document (image is never included in the
+# print version).
+image: '/assets/images/profile.jpg'
+
+# Each of these items will create a button in the contacts row. Add as many or as few as
+# you like. Each item must have at least a 'name', 'value' and 'icon'. Everything else
+# is optional.
 # The icon names come from material design icons (https://materialdesignicons.com/). If
 # no icon name is provided, the item name is assumed to be a valid MDI icon.
 # You may also provide short and long descriptions for each item, which are used in
@@ -20,19 +23,18 @@ info:
     value: "+447123456789"
     link: tel:+447123456789
 
+  - name: linkedin
+    value: "jdoe"
+    link: "https://www.linkedin.com/in/jdoe"
+
   - name: github
     value: jdoe
     short: jdoe
     link: "https://github.com/jdoe"
 
-  - name: facebook
-    value: jdoe
-
-  - name: twitter
-    value: "@jdoe"
-
   - name: address
     icon: map-marker
-    value: Buckingham Palace, Westminster, London, SW1A 1AA
-    long: Buckingham Palace, SW1A 1AA
+    value: 1 The Mall, SW1A 1AA
+    long: 1 The Mall, London, SW1A 1AA, UK
     short: Buck House
+    link: "https://goo.gl/maps/K2M488A4SG5hSzjV6"

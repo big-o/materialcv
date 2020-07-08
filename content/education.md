@@ -1,9 +1,9 @@
-* ## University of Hard Knocks
+* ## University of Life
   ### BA Life Studies - 2:1 (Honours)
   #### 2015 - 2018
-  Final project: *basket weaving*.
+  Add an extra note here if you like, such as your specialist areas of study.
 
-* ## Grange Hill High School
+* ## School of Hard Knocks
   ### A Levels
   #### 2013 - 2015
   French: A, Mathematics: B, IT: C.

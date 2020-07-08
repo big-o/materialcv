@@ -1,3 +1,3 @@
-Avid **tennis** player.
+Write about *relevant* things you've done outside of work here.
 
-Active member of the **Institute of Project Managers**.
+If you want to change the title of this section, you can do so in `_data/config.yml`.

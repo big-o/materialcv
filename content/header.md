@@ -1,2 +1,1 @@
-Project manager with extensive experience in managing projects. Charming, good-looking
-and *extremely* modest.
+A *short*, **punchy** tagline. Shouldn't be more than a couple of sentences.
