@@ -36,7 +36,7 @@ View your CV locally by running the following commands in the project directory:
 ```
 sudo gem install jekyll bundler
 bundle update
-bundle exec jekyll serve`
+bundle exec jekyll serve
 ```
 
 Then browse to `http://localhost:4000` to view your CV. Alternatively, push your content
