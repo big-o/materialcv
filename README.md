@@ -52,7 +52,8 @@ headers etc. can easily be changed in `_config.yml`:
 
 <img src="./img/web.png" alt="web" height="300px" />
 
-On smaller devices such as mobile, the cards take on a more vertical format to better
+Acceptable colour names can be found [here](https://materializecss.com/color.html). On
+smaller devices such as mobile, the cards take on a more vertical format to better
 utilise space:
 
 <img src="./img/mobile.png" alt="mobile" height="300px" />
